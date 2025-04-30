@@ -1,42 +1,47 @@
-# MRET
-Mass Redistribution Expansion Theory — a geometric model of cosmic acceleration
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MRET – Mass Redistribution Expansion Theory</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+      padding: 2em;
+    }
+    h1, h2, h3 { color: #333; }
+    code { background: #eee; padding: 2px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>🌌 Mass Redistribution Expansion Theory (MRET)</h1>
 
-# 🌌 Mass Redistribution Expansion Theory (MRET)
+  <p>MRET is a novel cosmological model where expansion is sourced not by dark energy, but by mass redistribution — especially into black holes and voids — which stretches the spacetime fabric itself.</p>
 
-Welcome to the official GitHub page for **Mass Redistribution Expansion Theory (MRET)** — a novel framework for explaining cosmic expansion without invoking dark energy or particle dark matter.
+  <h2>🔧 Classical MRET</h2>
+  <ul>
+    <li><strong>Stretch Field:</strong> \( \eta(z) = 1 + A \cdot \exp\left[-\left(\frac{z - z_c}{w}\right)^2\right] \)</li>
+    <li><strong>Modified Hubble Parameter:</strong> \( H_{\text{MRET}}(z) = \frac{H_0 \sqrt{\Omega_m (1 + z)^3 + \Omega_\Lambda}}{\eta(z)} \)</li>
+  </ul>
 
----
+  <h2>🔬 Quantum MRET</h2>
+  <ul>
+    <li>\( \eta \) as emergent metric entropy from quantum structure</li>
+    <li>Spacetime as a fluid: \( \Box \eta = \kappa \nabla \cdot (\rho_m \vec{v}) \)</li>
+    <li>Time emerges from entropy gradients and geometric stretching</li>
+  </ul>
 
-## 🔭 Overview
-MRET proposes that **cosmic acceleration arises from the redistribution of mass**, especially into black holes and cosmic voids. This mass flow stretches spacetime, altering its geometry in a way that mimics dark energy.
-
-Unlike standard ΛCDM cosmology, MRET is built on **six core rules** that redefine spacetime, energy, and gravity at both classical and quantum levels.
-
----
-
- 📖 Key Components
-
- ✅ Classical MRET (v3.0)
-- **Expansion Source**: A stretch field \( \eta(z) \) replaces dark energy.
-- **Geometry**: Space is finite and mass-anchored.
-- **Field Form**:
-  \[ \eta(z) = 1 + A \cdot \exp\left[-\left(\frac{z - z_c}{w}\right)^2\right] \]
-- **Modified Hubble Parameter**:
-  \[ H_{\text{MRET}}(z) = \frac{H_0 \sqrt{\Omega_m (1 + z)^3 + \Omega_\Lambda}}{\eta(z)} \]
-
- 🔬 Quantum MRET
-- **η as Metric Entropy**: Arises from quantum fluctuations and causal structure.
-- **Spacetime as Fluid**: Expansion emerges from divergence in mass-current: \( \Box\eta = \kappa \nabla \cdot (\rho_m \vec{v}) \)
-- **Time Emergence**: Time flows from entropy gradients and geometric change.
-
----
-
- 📈 Predictions & Simulations
-- **Suppressed structure growth** \( \delta(z), f\sigma_8(z) \)
-- **Modified lensing** in voids due to \( \eta(z) \)
-- **Directional Hubble tension** predicted from anisotropic mass flows
-- **Accurate fit** to \( D_A(z) \), \( H(z) \), and Planck data without Λ
-
+  <h2>📈 Predictions</h2>
+  <ul>
+    <li>Suppressed structure growth \( \delta(z), f\sigma_8(z) \)</li>
+    <li>Modified void lensing due to \( \eta(z) \)</li>
+    <li>Directional Hubble tension explained via mass flow anisotropies</li>
+    <li>Close agreement with \( H(z), D_A(z) \), and CMB data</li>
+  </ul>
 ---
 
  📂 Repository Structure
